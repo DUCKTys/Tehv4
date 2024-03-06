@@ -9,8 +9,7 @@ const { generateWAMessageFromContent, proto } = (await import('@adiwajshing/bail
 
 const defaultMenu = {
   before: `
-❏ *Note:* Login pake akun google kalian kalau gk paham chat owner, bot ini blum sepenuh nya on 24 jam
-❏ *Web Start Bot:* https://replit.com/join/xmafmqdncd-tehangetesteh90
+❏ *Note:* *Kalau bot tiba-tiba spam jangan marah setan, owner juga manusia sering ngelakuin kesalahan*
 ❏ *Nama Bot:* %me
 ❏ *Owner Bot:* 6281359053674
 ❏ *Mode:* %mode
@@ -22,9 +21,9 @@ const defaultMenu = {
 ❏ *Database:* %rtotalreg dari %totalreg
 %readmore
 `.trimStart(),
-  header: '╔═══🅇『 %category 』',
+  header: '╔═══•『 %category 』',
   body: '║» %cmd',
-  footer: '╚═════════════🄾',
+  footer: '╚═════════════•',
   after: ``,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
@@ -264,4 +263,4 @@ function ucapan() {
     res = "Malam rek 🌙"
   }
   return res
-}
+      }
