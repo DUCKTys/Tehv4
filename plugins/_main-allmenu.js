@@ -201,7 +201,7 @@ let tags = {
  conn.reply(m.chat, text, fkon, { contextInfo: { mentionedJid: [m.sender],
         externalAdReply: {
             title: titlebot,
-            body: author,
+            body: 'ʙᴏᴛ_ᴡʜᴀᴛsᴀᴘᴘ',
             description: wm,
             mediaType: 2,
           thumbnailUrl: 'https://telegra.ph/file/287baf39c90619f2d046c.jpg',
